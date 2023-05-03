@@ -1,0 +1,287 @@
+@import URL('https://fonts.googleapis.com/css2? family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/*font-family: 'Noto Sans KR', 산세리프;
+font-family: 'Aclonica', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', 산세리프;
+    transition: all 0.7s;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+html{
+    font-size: 15px;
+}
+header{
+    width: 100%;
+    height: 15vh;
+}
+header .top{
+    width: 80%;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header .top ul{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+main{
+    margin-bottom: 25vh;
+}
+.section01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+  }
+.section01 .glass h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8AB5FF;
+    margin-bottom:2vw;
+}
+.section01 .glass .row .col-6 .gbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.section01 .glass .row .col-6 .gbox figure{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+.section01 .glass .row .col-6 .gbox p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0;
+}
+.section01 .glass .row .col-6 .gsub{
+    display: flex;
+    justify-content: space-between;
+}
+.section01 .glass .row .col-6 .gsub figure{
+    width: fit-content;
+    height: fit-content;
+}
+.section01 .glass .row .col-6 .gsub .text{
+    margin: auto auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.section01 .glass .row .col-6 .gsub .text h4{
+    font-family: 'Aclonica', sans-serif;
+}
+.section01 .glass .row .col-6 .gsub .text p{
+    font-family: 'Aclonica', sans-serif;
+}
+.section02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+}
+.section02 .suede h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D1C5B7;
+    margin-bottom:2vw;
+    text-align: right;
+}
+.section02 .suede .row .col-6 .ssub{
+    display: flex;
+    justify-content: space-between;
+}
+.section02 .suede .row .col-6 .ssub figure{
+    width: fit-content;
+    height: fit-content;
+}
+.section02 .suede .row .col-6 .ssub .text{
+    margin: auto auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.section02 .suede .row .col-6 .ssub .text h4{
+    font-family: 'Aclonica', sans-serif;
+}
+.section02 .suede .row .col-6 .ssub .text p{
+    font-family: 'Aclonica', sans-serif;
+}
+.section02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+}
+.section02 .suede .row .col-6 .sbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.section02 .suede .row .col-6 .sbox figure{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+.section02 .suede .row .col-6 .sbox p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0;
+}
+.best{
+    margin-bottom: 25vh;
+}
+.best h1{
+    margin-bottom: 10vw;
+    text-align: center;
+    font-weight: bold;
+}
+.best .col-3 a>span{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+.best .col-3 p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.best .col-3 p>span{
+    font-weight: 600;
+}
+.section03title>h1{
+    margin-bottom: 2vw;
+    text-align: center;
+    font-weight: bold;
+    color: #8AB5FF;
+}
+.section03{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/brand배경이미지.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25vh;
+    position: relative;
+}
+.section03 .brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto auto;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section03 .brand>p{
+    margin-top: 3%;
+}
+.kakao{
+    margin-bottom: 25vh;
+}
+.kakao>img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10vw;
+}
+.kakao .row .col-4 p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.kakao .row .col-4 p>span{
+    color:#FEDA00;
+    font-size: 17px;
+}
+.kakao .row .col-4:last-child img{
+    position: relative;
+}
+.kakao .row .col-4:last-child .arrow{
+    background-color: #FEDA00;
+}
+.view{
+    margin-bottom: 200px;
+}
+.view h1{
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.view .row .col-5 span{
+    font-weight: 700;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+    width: 100%;
+    background-color: #8AB5FF;
+}
+footer .bottom .row .col-5{
+    margin-top: 15px;
+}
+footer .bottom .row .col-3{
+    margin-top: 30px;
+}
+footer .bottom .row .col-3 p>span{
+    font-weight: 900;
+    font-size: 15px;
+}
+footer .bottom .row .col-3 p{
+    font-size: 13px;
+    color: white;
+}
+footer .bottom .row .col-2{
+    margin-top: 30px;
+    color: white;
+}
+footer .bottom .row .col-2 span{
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+}
+footer .bottom .row .col-2 ul{
+    font-size: 13px;
+}
+footer .bottom .row .col-9{
+    font-size: 13px;
+    color: white;
+}
+footer .bottom .row .col-1{
+    margin-top: 50px;
+}
